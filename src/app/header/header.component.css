@@ -1,0 +1,31 @@
+h1 {   
+    color: white;
+}
+
+.hamburger {
+    display: inline-flex;
+    width: min-content;
+    align-items: center;
+}
+
+.hamburger button {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin-right: 6px;
+}
+
+.hamburger mat-menu {
+    align-content: flex-end; 
+}
+
+.header-text {
+    padding: 1px 6px;
+    width: 100%;
+}
+
+.main-div {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}

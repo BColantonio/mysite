@@ -1,0 +1,18 @@
+.terminal-card {
+    margin: 1rem 6px 0 6px;
+}
+
+.terminal-card > header {
+    padding-left: 6px;
+    text-align: left;
+    width: 100%;
+}
+
+.video-flex {
+    display: flex;
+    overflow-x: auto;
+}
+
+.videos {
+    margin-right: 1rem;
+}

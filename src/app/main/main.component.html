@@ -1,0 +1,19 @@
+<div class="terminal-card"
+        *ngIf="!isLoading">
+    <header>BC:\suggested_videos</header>
+    <div class="video-flex">
+        <div *ngFor="let item of playlist"
+            class="videos">
+            <youtube-player class="image-grid"
+            videoId="{{item.snippet.resourceId.videoId}}" 
+            suggestedQuality="highres">
+            </youtube-player>
+        </div>
+    </div>
+</div>
+<div class="terminal-card">
+    <header>BC:\twitter-feed</header>
+    <div class="twitter-feed">
+        <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/heavygruff?ref_src=twsrc%5Etfw">Tweets by BC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+</div>

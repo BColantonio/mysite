@@ -1,0 +1,10 @@
+img {
+    height: 3rem;
+    width: 3rem;
+    margin: 6px;
+    vertical-align: middle;
+}
+
+.terminal-card {
+    margin: 100vh 6px 6px 6px;
+}
