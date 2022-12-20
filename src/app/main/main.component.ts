@@ -16,16 +16,16 @@ export class MainComponent implements OnInit {
   constructor(private youtubeService: YoutubeService){}
 
   ngOnInit(): void {
-    this.getYoutubePlaylist();
+    // this.getYoutubePlaylist();
   }
 
-  getYoutubePlaylist(){
-    this.isLoading = true;
-    this.youtubeService.getPlaylist().subscribe((data: any) => {
-      data.items.reverse();
-      this.playlist = data.items;
-      this.isLoading = false;
-    });
-  }
+  // getYoutubePlaylist(){
+  //   this.isLoading = true;
+  //   this.youtubeService.getPlaylist().subscribe((data: any) => {
+  //     data.items.reverse();
+  //     this.playlist = data.items;
+  //     this.isLoading = false;
+  //   });
+  // }
 
 }
